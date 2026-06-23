@@ -26,7 +26,7 @@ const photos: Photo[] = [
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=1200&h=1600&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1485199692108-c3b5069de6a0?w=1200&h=1600&fit=crop&auto=format",
     alt: "Childhood garden",
     category: "showcase",
     caption: "Roots in the Garden",
@@ -35,7 +35,7 @@ const photos: Photo[] = [
   },
   {
     id: 9,
-    src: "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&h=1600&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=1200&h=1600&fit=crop&auto=format",
     alt: "Ballet recital",
     category: "showcase",
     caption: "Pointe and Grace",
@@ -44,7 +44,7 @@ const photos: Photo[] = [
   },
   {
     id: 12,
-    src: "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=1200&h=1600&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=1200&h=1600&fit=crop&auto=format",
     alt: "Portrait in golden light",
     category: "showcase",
     caption: "Edge of Eighteen",
@@ -55,28 +55,28 @@ const photos: Photo[] = [
   // gallery (pre-debut shoot)
   {
     id: 13,
-    src: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=1200&h=1600&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=1200&h=1600&fit=crop&auto=format",
     alt: "Debut portrait in gown",
     category: "gallery",
     caption: "The First Look",
   },
   {
     id: 14,
-    src: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=1600&h=1200&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=1600&h=1200&fit=crop&auto=format",
     alt: "Grand ballroom entrance",
     category: "gallery",
     caption: "A Grand Entrance",
   },
   {
     id: 15,
-    src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=1600&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1549417229-aa67d3263c09?w=1200&h=1600&fit=crop&auto=format",
     alt: "Debut gown detail",
     category: "gallery",
     caption: "Intricate Silks",
   },
   {
     id: 16,
-    src: "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?w=1600&h=1200&fit=crop&auto=format",
+    src: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?w=1600&h=1200&fit=crop&auto=format",
     alt: "Cotillion waltz",
     category: "gallery",
     caption: "The Midnight Waltz",
@@ -230,7 +230,7 @@ export default function App() {
         <section className="relative flex-1 flex flex-col items-center justify-center p-8 min-h-[80vh] overflow-hidden">
           <div className="absolute inset-0 m-4 md:m-8 lg:m-12">
             <img
-              src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=2000&h=2400&fit=crop&auto=format"
+              src="https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=2000&h=2400&fit=crop&auto=format"
               alt="Sofia"
               className="w-full h-full object-cover object-[center_20%] opacity-90"
             />
