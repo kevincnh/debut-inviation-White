@@ -1,0 +1,92 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  /* Light, ethereal, warm high-fashion palette */
+  --background: #FAF8F5; /* Alabaster */
+  --foreground: #2A2825; /* Charcoal */
+  --card: #FFFFFF;
+  --card-foreground: #2A2825;
+  --popover: #FFFFFF;
+  --popover-foreground: #2A2825;
+  
+  --primary: #C1A68D; /* Muted Gold / Champagne */
+  --primary-foreground: #FFFFFF;
+  
+  --secondary: #EBE5DF; /* Greige */
+  --secondary-foreground: #2A2825;
+  
+  --muted: #F2EFEA;
+  --muted-foreground: #8C857D;
+  
+  --accent: #DFD3C3; /* Soft Sand / Blush */
+  --accent-foreground: #2A2825;
+  
+  --destructive: #8B4A4A;
+  --destructive-foreground: #FFFFFF;
+  
+  --border: #E4DFD8;
+  --input: transparent;
+  --ring: #C1A68D;
+  
+  --radius: 0rem; /* Sharp, modern, elegant edges */
+}
+
+.dark {
+  /* Deep, warm espresso for dark mode (retaining elegance) */
+  --background: #1C1A19;
+  --foreground: #F4F1ED;
+  --card: #252321;
+  --card-foreground: #F4F1ED;
+  --popover: #252321;
+  --popover-foreground: #F4F1ED;
+  --primary: #C1A68D;
+  --primary-foreground: #1C1A19;
+  --secondary: #332F2C;
+  --secondary-foreground: #F4F1ED;
+  --muted: #332F2C;
+  --muted-foreground: #A39E98;
+  --accent: #4A443F;
+  --accent-foreground: #F4F1ED;
+  --destructive: #9C5B5B;
+  --destructive-foreground: #FFFFFF;
+  --border: #3A3633;
+  --input: #3A3633;
+  --ring: #C1A68D;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
